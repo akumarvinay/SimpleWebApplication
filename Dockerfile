@@ -11,7 +11,7 @@ RUN echo "In docker file : pwd location" pwd
 
 # Deploy the application(war) into tomcat
 #COPY  ./target/SampleWebApp.war   #/usr/local/tomcat/webapps/SampleWebApp/
-ADD /var/lib/jenkins/workspace/FirstMavenProject/target/SimpleWebApplication.war    /usr/local/tomcat/webapps/
+ADD ./target/SimpleWebApplication.war    /usr/local/tomcat/webapps/
 
 #EXPOSE 8080
 
