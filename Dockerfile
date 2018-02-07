@@ -9,7 +9,7 @@ RUN echo "In docker file : pwd location" pwd
 
 #RUN mkdir /usr/local/tomcat/webapps/SampleWebApp
 
-# Deploy the application(war) into tomcat
+# Deploy the application(war) into tomcat new 
 #COPY  ./target/SampleWebApp.war   #/usr/local/tomcat/webapps/SampleWebApp/
 ADD ./target/SimpleWebApplication.war    /usr/local/tomcat/webapps/
 
