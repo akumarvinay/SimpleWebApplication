@@ -18,5 +18,5 @@ ADD ./target/SimpleWebApplication.war    /usr/local/tomcat/webapps/
 # Start Tomcat and redirect all logs to stdout
 # -------------------------------
 #CMD ["catalina.sh", "run"]
-#----------------------
+#-------------------------
 
