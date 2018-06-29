@@ -16,6 +16,6 @@ ADD ./target/SimpleWebApplication.war    /usr/local/tomcat/webapps/
 #EXPOSE 8080
 
 # Start Tomcat and redirect all logs to stdout
-
+# -------------------------------
 #CMD ["catalina.sh", "run"]
 
