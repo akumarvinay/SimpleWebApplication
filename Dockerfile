@@ -1,6 +1,6 @@
 FROM tomcat:8-jre8
 #Take the tomcat8 and jre8 image 
-
+#000
 # Clean the webapps directory.
 #The intention is to remove the default Contexts that includes Manager
 #RUN rm -r /usr/local/tomcat/webapps/*
