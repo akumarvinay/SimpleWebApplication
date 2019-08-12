@@ -1,4 +1,4 @@
-@Library['devops-dsl'] _
+@Library('devops-dsl') _
 sample {
 
     applicationName : 'Tomcat Application'
