@@ -1,6 +1,6 @@
 @Library(['devops-dsl']) _
 sample {
-    applicationName = 'Tomcat Application'
+    applicationName = 'tomcat-application'
     buildNode = 'LINUX_CENTOS'
     mvnGoals = 'clean package'
 }
