@@ -3,7 +3,7 @@ FROM tomcat:8-jre8
 #000
 # Clean the webapps directory.
 #The intention is to remove the default Contexts that includes Manager
-#RUN rm -r /usr/local/tomcat/webapps/*
+RUN rm -r /usr/local/tomcat/webapps/*
 
 RUN echo "In docker file : pwd location" pwd
 
@@ -11,12 +11,12 @@ RUN echo "In docker file : pwd location" pwd
 
 # Deploy the application(war) into tomcat new 
 #COPY  ./target/SampleWebApp.war   #/usr/local/tomcat/webapps/SampleWebApp/
-ADD ./target/SimpleWebApplication.war    /usr/local/tomcat/webapps/
+ADD target/SimpleWebApplication.war    /usr/local/tomcat/webapps/
 
-#EXPOSE 8080
+EXPOSE 8080
 
 # Start Tomcat and redirect all logs to stdout
 # -------------------------------
-#CMD ["catalina.sh", "run"]
+CMD ["catalina.sh", "run"]
 #-------------------------
 
