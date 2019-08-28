@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: myappcontainer
-        image: akumarvinay/tomcat-application-$BUILD_NUMBER}:$BUILD_NUMBER
+        image: akumarvinay/new-application:$BUILD_NUMBER
         ports:
         - containerPort: 8080  
         
