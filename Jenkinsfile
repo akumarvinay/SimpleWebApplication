@@ -1,5 +1,5 @@
 @Library(['devops-dsl']) _
 sample {
-    applicationName = 'tomcat-application'
+    applicationName = 'new-application'
     mvnGoals = 'clean package'
 }
