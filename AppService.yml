@@ -7,7 +7,7 @@ spec:
   ports:
   - targetPort: 8080
     port: 8080
-    nodePort: 80
+    nodePort: 32765
     protocol: TCP
   selector:
     app: myapp
